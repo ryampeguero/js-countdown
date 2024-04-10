@@ -26,7 +26,7 @@ function timer(){
 }
 
 function setTimer(){
-    realTimer = setInterval(timer, 100);
+    realTimer = setInterval(timer, 1000);
 }
 
 function stopTimer(){

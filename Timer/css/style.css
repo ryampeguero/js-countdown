@@ -1,0 +1,33 @@
+button{
+    width: 80px;
+    aspect-ratio: 1;
+    border-radius: 10px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    font-size: 3rem;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn-start {
+    background-color: lightblue;
+}
+
+#btn-stop {
+    background-color: lightcoral;
+}

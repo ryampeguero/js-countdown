@@ -1,0 +1,13 @@
+.wrapper {
+    margin: 0 auto;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row{
+    padding: 20px;
+    background-color: lightcoral;
+    font-size: 3rem;
+}

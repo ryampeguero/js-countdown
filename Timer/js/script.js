@@ -5,7 +5,7 @@ let realTimer;
 console.log(btnStart);
 let minute = 0;
 let second = 0;
-
+let intervalControl = 0;
 
 btnStart.addEventListener("click", setTimer);
 btnStop.addEventListener("click", stopTimer);
@@ -26,11 +26,15 @@ function timer(){
 }
 
 function setTimer(){
-    realTimer = setInterval(timer, 1000);
+    intervalControl++;
+    if(intervalControl == 1){
+        realTimer = setInterval(timer, 1000);
+    }
 }
 
 function stopTimer(){
     clearInterval(realTimer);
+    intervalControl = 0;
 }
 
 function printTime(m, s){

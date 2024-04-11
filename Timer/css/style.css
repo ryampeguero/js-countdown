@@ -31,3 +31,7 @@ button{
 #btn-stop {
     background-color: lightcoral;
 }
+
+#btn-reset {
+    background-color: lightgreen;
+}
